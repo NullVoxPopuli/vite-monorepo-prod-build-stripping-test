@@ -1,0 +1,7 @@
+{
+  "name": "consumer",
+  "type": "module",
+"scripts": {
+  "build": "vite build"
+},
+  "dependencies":{"library":"workspace:^","vite":"^4.4.11"}}

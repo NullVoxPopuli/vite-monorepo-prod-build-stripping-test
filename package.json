@@ -1,0 +1,10 @@
+{
+  "scripts": {
+    "build": "pnpm build:app && pnpm msg",
+    "build:app": "pnpm --filter 'consumer' build",
+    "msg": "echo 'check the dist folder in the consumer project'"
+  },
+"volta": {
+"node": "18.18.1"
+}
+}
