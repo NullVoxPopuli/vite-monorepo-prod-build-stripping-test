@@ -1,7 +1,12 @@
 {
   "name": "consumer",
   "type": "module",
-"scripts": {
-  "build": "vite build"
-},
-  "dependencies":{"library":"workspace:^","vite":"^4.4.11"}}
+  "scripts": {
+    "build": "vite build"
+  },
+  "dependencies": {
+    "library": "workspace:^",
+    "terser": "^5.21.0",
+    "vite": "^4.4.11"
+  }
+}
